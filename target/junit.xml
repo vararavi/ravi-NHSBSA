@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="11.586926">
+    <testcase classname="As a person from Wales" name="Wales Test Ticket - Acceptance Criteria" time="5.777519">
+        <system-out>
+            <![CDATA[Given I am a person from Wales..............................................passed
+When I entered DOB for 16 years.............................................passed
+Then I should get a result of whether I will get help or not................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="As a person from Wales" name="Wales Test Ticket - Acceptance Criteria 2" time="5.809407">
+        <system-out>
+            <![CDATA[Given I am a person from Wales..............................................passed
+When I entered DOB for 35 years.............................................passed
+Then I should get a result of whether I will get help or not................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

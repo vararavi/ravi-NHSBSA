@@ -1,0 +1,184 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3122642800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Wales Test Ticket - Acceptance Criteria",
+        "description": "",
+        "id": "as-a-person-from-wales;wales-test-ticket---acceptance-criteria;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 844558700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 681060300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am a person from Wales",
+            "match": {
+              "location": "EligibilityChecker.i_am_a_person_from_Wales()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1097979200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I entered DOB for 16 years",
+            "match": {
+              "arguments": [
+                {
+                  "val": "16",
+                  "offset": 18
+                }
+              ],
+              "location": "EligibilityChecker.iEnteredDOBForYears(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31278300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should get a result of whether I will get help or not",
+            "match": {
+              "location": "EligibilityChecker.i_should_get_a_result_of_whether_I_will_get_help_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@nhs"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2585756800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Wales Test Ticket - Acceptance Criteria",
+        "description": "",
+        "id": "as-a-person-from-wales;wales-test-ticket---acceptance-criteria;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 758148000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 270838000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am a person from Wales",
+            "match": {
+              "location": "EligibilityChecker.i_am_a_person_from_Wales()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2157231800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I entered DOB for 35 years",
+            "match": {
+              "arguments": [
+                {
+                  "val": "35",
+                  "offset": 18
+                }
+              ],
+              "location": "EligibilityChecker.iEnteredDOBForYears(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37432300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should get a result of whether I will get help or not",
+            "match": {
+              "location": "EligibilityChecker.i_should_get_a_result_of_whether_I_will_get_help_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@nhs"
+          }
+        ]
+      }
+    ],
+    "name": "As a person from Wales",
+    "description": "",
+    "id": "as-a-person-from-wales",
+    "keyword": "Feature",
+    "uri": "EligibiliyCheck.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@nhs"
+      }
+    ]
+  }
+]
